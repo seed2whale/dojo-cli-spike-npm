@@ -1,11 +1,15 @@
 {
-  "name": "dojo",
-  "version": "1.0.0",
+  "bin": {
+    "jin-dojo": "./bin/jin-dojo.js"
+  },
+  "name": "jin-dojo",
+  "version": "1.0.9",
   "description": "read the content of a file",
   "main": "index.js",
   "scripts": {
     "watch": "jest --watchAll",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dojo": "jin-dojo"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +23,8 @@
     "eslint-plugin-import": "^2.25.4",
     "jest": "^27.5.1",
     "regenerator-runtime": "^0.13.9"
+  },
+  "dependencies": {
+    "jin-dojo": "^1.0.0"
   }
 }
